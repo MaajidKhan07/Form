@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Animal Rescue Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Animal Rescue Form</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" required>
+      <br>
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+      <button type="button" onclick="getLocation()">Get Location</button>
+      <br>
+      <label for="picture">Injured Animal Picture:</label>
+      <input type="file" id="picture" name="picture" accept="image/*" required>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
